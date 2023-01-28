@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Mono:wght@300;400&family=Unbounded:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(67,99,106,1) 0%, rgba(60,117,129,1) 37%, rgba(72,165,185,1) 69%, rgba(131,233,255,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    color: rgb(240, 240, 240);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+#logo-site {
+    height: 70px;
+}
+
+.item-menu {
+    padding: 20px;
+}
+
+.main-section {
+    padding: 30px;
+    border-top: solid 1px rgb(178, 211, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-text {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 42px;
+    padding: 13px;
+}
+
+#main-subtitle {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.imagem-conteudo {
+    height: 400px;
+}
+
+#main-button {
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.secondary-title {
+    font-size: 22px;
+    color: rgb(225, 255, 251);
+    border-top: solid 1px rgb(178, 211, 233);
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.secondary-subtitle {
+    font-size: 17px;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border-top: solid 1px rgb(178, 211, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+
+#git-logo {
+    height: 40px; 
+    padding-left: 20px;
+}
+
+#rocket-logo {
+    height: 40px;
+    border-radius: 100%;
+}
+
+#signature {
+    font-family: 'Unbounded', cursive;
+}
